@@ -14,3 +14,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 var recipes = new Object();
 
 updateObjectWithKeyAndValue(obj, prop2 , 2);
+
+destructivelyUpdateObjectWithKeyAndValue(obj, prop2, 2);
