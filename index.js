@@ -8,5 +8,3 @@ function updateObjectWithKeyAndValue(object, key, value) {
 var recipes = new Object();
 
 updateObjectWithKeyAndValue(recipes, 'prop', 1);
-
-
