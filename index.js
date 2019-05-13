@@ -7,4 +7,4 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 var recipes = new Object();
 
-updateObjectWithKeyAndValue(obj, prop2, '2');
+updateObjectWithKeyAndValue(obj, prop2, 2);
