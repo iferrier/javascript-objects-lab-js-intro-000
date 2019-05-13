@@ -8,6 +8,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   var obj = { prop:1 };
   obj[key]= value;
+  return(obj);
 }
 
 var recipes = new Object();
