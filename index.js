@@ -15,6 +15,10 @@ function deleteFromObjectByKey(obj,key) {
   return(newObj);
 }
 
+function destructivelyUpdateObjectWithKeyAndValue(obj,key) {
+  
+}
+
 var obj = { prop:1 };
 var recipes = new Object();
 
